@@ -21,7 +21,7 @@ Empezamos por el primer código:
 \documentclass[11pt,letterpaper]{article}
 ```
 
-Puedes elegir el tipo de documento que requieras. Para consultar los tipos de documentos que puedes elegir ingresa al siguiente [link](#):target="\_blank"
+Puedes elegir el tipo de documento que requieras. Para consultar los tipos de documentos que puedes elegir ingresa al siguiente [link](#){:target="\_blank"}
 
 Escribimos nuestro primer código de paquete, este nos ayudará a detectar acentos y caracteres especiales:
 
@@ -63,7 +63,7 @@ Ingresamos los metadatos de autoría (autora, afiliación, correo, agradecimient
 \title{nombre del trabajo}
 ```
 
-**Forma dos:**[^1]
+**Forma dos:** con el paquete `authblk`[^1]
 ```
 \usepackage{authblk}
 \author[a]{Nombre de la autora}\thanks{agradecimiento}
@@ -75,6 +75,7 @@ El Documento quedará algo así:
 
 ![](https://i.imgur.com/zhzTrZi.png)
 
+**Guardamos documento**.
 
 ## Cuerpo
 
@@ -123,20 +124,16 @@ Para agregar secciones o capítulos se usan respectivamente los siguientes coman
 
     Excepteur eu quis cillum laboris aute laboris culpa qui exercitation enim mollit. Laboris est mollit nisi mollit eu nostrud officia est et eu eu pariatur duis. Mollit elit commodo irure exercitation ullamco dolore pariatur culpa amet. Cillum nisi sunt commodo nostrud velit exercitation labore do id ad veniam culpa ex quis ad. Ea dolore ex laboris qui deserunt eu minim qui non proident officia amet nisi fugiat mollit. Anim anim sint consequat dolore reprehenderit velit ut cillum.
 
-    Ut cupidatat sit excepteur tempor labore fugiat laboris minim nisi cupidatat occaecat eiusmod sunt. Ut exercitation irure esse deserunt eu tempor veniam do. Adipisicing qui tempor culpa aliquip deserunt pariatur voluptate culpa laboris quis veniam. Aute labore velit sunt nostrud laboris non elit consequat. Laboris pariatur proident esse mollit irure anim eu magna. Fugiat laboris excepteur sunt fugiat in pariatur mollit dolor sunt ullamco deserunt deserunt commodo cupidatat adipisicing commodo aliqua. Elit cillum dolor ad velit dolor dolor ut minim tempor elit est excepteur id aliquip nostrud ad.
-
   \section{Desarrollo}
 
     In aute nisi laboris duis Lorem dolor dolore dolor amet sit. Dolore ullamco cillum est ad esse incididunt culpa deserunt id. Pariatur laborum incididunt fugiat nostrud id fugiat consectetur nisi qui. Consequat qui non et in ullamco esse ex. Magna culpa id in et sunt ullamco laboris ex excepteur sit anim aute consectetur labore esse aliquip in. Occaecat occaecat occaecat adipisicing do aute aute velit esse laboris. In excepteur ea elit elit irure occaecat tempor ad ullamco amet velit incididunt labore laborum.
-
-    Quis excepteur Lorem eu proident adipisicing consequat tempor officia consequat esse commodo excepteur. Ullamco consectetur dolore quis duis anim et non exercitation cillum ut velit. Ullamco cillum esse ad est irure sit cupidatat occaecat labore do reprehenderit elit cillum aute dolor id. Consequat in nulla excepteur occaecat amet ad reprehenderit consequat commodo pariatur ex sit dolore minim enim. Anim eiusmod sit cillum fugiat pariatur in officia in voluptate. Laboris ad dolore laborum sint eiusmod ad amet anim cillum consectetur aliqua fugiat ea. Magna elit consectetur ipsum reprehenderit nisi laborum eiusmod tempor. Nostrud proident nostrud culpa aliquip fugiat tempor quis dolor.
 
 
 \end{document}
 ```
 
 
-Dar formato al texto como cursivas, negritas, volados, versalitas etc., con base en los comandos correspondientes, puedes consurtarlos en l siguiente [link](#){:target="\_blank"}
+Dar formato al texto como cursivas, negritas, volados, versalitas etc., con base en los comandos correspondientes, puedes consurtarlos en el siguiente [link](#){:target="\_blank"}
 
 
   [^1]: Usar el paquete de bloque de autor. Este método implica renovar comandos.
