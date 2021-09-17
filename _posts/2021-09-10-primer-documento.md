@@ -113,7 +113,7 @@ Para agregar secciones o capítulos se usan respectivamente los siguientes coman
 
   \begin{abstract}
 
-      Incididunt et ea ea sunt culpa duis ad aliquip dolore non. Veniam excepteur nulla enim cupidatat aliquip deserunt sit consectetur ex nisi in laborum nisi cupidatat nisi.
+      Mi abstract
 
   \end{abstract}
 
@@ -131,6 +131,10 @@ Para agregar secciones o capítulos se usan respectivamente los siguientes coman
 
 \end{document}
 ```
+
+El documento que así:
+
+![](https://i.imgur.com/rmoK8Q8.png){:target="\_blank"}
 
 
 Dar formato al texto como cursivas, negritas, volados, versalitas etc., con base en los comandos correspondientes, puedes consurtarlos en el siguiente [link](#){:target="\_blank"}
