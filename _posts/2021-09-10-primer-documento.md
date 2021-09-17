@@ -13,33 +13,35 @@ tags: [LaTeX, Taller, Instituto Mora]
 
 ![Imágen 1](https://i.imgur.com/F0L6JER.png)
 
-## Nuestro preámbulo
-* Empezamos por el primer código:
+## Preámbulo
+
+Empezamos por el primer código:
 
 ```
 \documentclass[11pt,letterpaper]{article}
 ```
 
-* Puedes elegir el tipo de documento que requieras. Para consultar los tipos de documentos que puedes elegir ingresa al siguiente [link](#)
-* Escribimos nuestro primer código de paquete, este nos ayudará a detectar acentos y caracteres especiales:
+Puedes elegir el tipo de documento que requieras. Para consultar los tipos de documentos que puedes elegir ingresa al siguiente [link](#):target="\_blank"
+
+Escribimos nuestro primer código de paquete, este nos ayudará a detectar acentos y caracteres especiales:
 
 ```
 \usepackage[utf8]{inputenc}
 ```
 
-* Agregamos el paquete de idioma:
+Agregamos el paquete de idioma:
 
 ```
 \usepackage[spanish]{babel}
 ```
 
-* Se establece margen en caso de necesitar modificarlo con el paquete
+Se establece margen en caso de necesitar modificarlo con el paquete
 
 ```
 \usepackage[margin=1cm]{geometry}
 ```
 
-* No es obligatorio pero podemos asignar cabeceras y pies personalizados. Tómalo con calma y experimenta mucho con este paquete. Hay que usar los siguientes comandos:
+No es obligatorio pero podemos asignar cabeceras y pies personalizados. Tómalo con calma y experimenta mucho con este paquete. Hay que usar los siguientes comandos:
 
 ```
 \usepackage{fancyhdr}
@@ -50,10 +52,9 @@ tags: [LaTeX, Taller, Instituto Mora]
 \cfoot[par]{impar}
 \lfoot[par]{impar}
 \rfoot[par]{impar}
-\cfoot[par]{impar}
 ```
 
-* Ingresamos los metadatos de autoría (autora, afiliación, correo, agradecimientos). Hay dos maneras de meter estos datos.
+Ingresamos los metadatos de autoría (autora, afiliación, correo, agradecimientos). Hay dos maneras de meter estos datos.
 
 **Forma uno:**
 
@@ -70,16 +71,72 @@ tags: [LaTeX, Taller, Instituto Mora]
 \title{nombre del trabajo}
 ```
 
-9. Comenzamos el cuerpo del documento, se escribe el intervalo `\begin{document}` y `\end{document}`.
+El Documento quedará algo así:
 
-10. Entre el intervalo de documento escribimos `\maketitle` para colocar el título de nuestro trabajo y la autoría del mismo.
+![](https://i.imgur.com/zhzTrZi.png)
 
-11. En caso de que nuestro trabajo tenga *abstract* este debe ser incluido con el intervalo `\begin{abstract}`. Es importante cerrar este intervalo una vez se haya colocado el texto correspondiente.
 
-12. Para agregar secciones o capítulos se usan respectivamente los siguientes comandos: `\section{nombre de la sección}` y `\chapter{título del capítulo}`
-  * **Aclaración:** Los documentos que son Artículos no pueden tener capítulos, pero los libros y reportes pueden tener secciones, las secciones en los libros están jerárquicamente debajo de los capítulos.
+## Cuerpo
 
-13. Dar formato al texto como cursivas, negritas, volados, versalitas etc., con base en los comandos correspondientes
+Comenzamos el cuerpo del documento, se escribe el intervalo
+
+```
+\begin{document}
+  \maketitle
+
+\end{document}
+```
+
+Nótese que en el intervalo de documento escribimos `\maketitle` para colocar el título de nuestro trabajo y la autoría del mismo.
+
+En caso de que nuestro trabajo tenga *abstract* este debe ser incluido con el intervalo `\begin{abstract}`. Es importante cerrar este intervalo una vez se haya colocado el texto correspondiente.
+
+```
+\begin{document}
+  \maketitle
+
+  \begin{abstract}
+      Mi Abstract
+  \end{abstract}
+
+\end{document}
+```
+
+Para agregar secciones o capítulos se usan respectivamente los siguientes comandos: `\section{nombre de la sección}` y `\chapter{título del capítulo}`.
+
+**Aclaración:** Los documentos que son Artículos no pueden tener capítulos, pero los libros y reportes pueden tener secciones, las secciones en los libros están jerárquicamente debajo de los capítulos.
+
+```
+\begin{document}
+  \maketitle
+
+  \begin{abstract}
+
+      Incididunt et ea ea sunt culpa duis ad aliquip dolore non. Veniam excepteur nulla enim cupidatat aliquip deserunt sit consectetur ex nisi in laborum nisi cupidatat nisi.
+
+  \end{abstract}
+
+
+
+  \section{Introducción}
+
+
+    Excepteur eu quis cillum laboris aute laboris culpa qui exercitation enim mollit. Laboris est mollit nisi mollit eu nostrud officia est et eu eu pariatur duis. Mollit elit commodo irure exercitation ullamco dolore pariatur culpa amet. Cillum nisi sunt commodo nostrud velit exercitation labore do id ad veniam culpa ex quis ad. Ea dolore ex laboris qui deserunt eu minim qui non proident officia amet nisi fugiat mollit. Anim anim sint consequat dolore reprehenderit velit ut cillum.
+
+    Ut cupidatat sit excepteur tempor labore fugiat laboris minim nisi cupidatat occaecat eiusmod sunt. Ut exercitation irure esse deserunt eu tempor veniam do. Adipisicing qui tempor culpa aliquip deserunt pariatur voluptate culpa laboris quis veniam. Aute labore velit sunt nostrud laboris non elit consequat. Laboris pariatur proident esse mollit irure anim eu magna. Fugiat laboris excepteur sunt fugiat in pariatur mollit dolor sunt ullamco deserunt deserunt commodo cupidatat adipisicing commodo aliqua. Elit cillum dolor ad velit dolor dolor ut minim tempor elit est excepteur id aliquip nostrud ad.
+
+  \section{Desarrollo}
+
+    In aute nisi laboris duis Lorem dolor dolore dolor amet sit. Dolore ullamco cillum est ad esse incididunt culpa deserunt id. Pariatur laborum incididunt fugiat nostrud id fugiat consectetur nisi qui. Consequat qui non et in ullamco esse ex. Magna culpa id in et sunt ullamco laboris ex excepteur sit anim aute consectetur labore esse aliquip in. Occaecat occaecat occaecat adipisicing do aute aute velit esse laboris. In excepteur ea elit elit irure occaecat tempor ad ullamco amet velit incididunt labore laborum.
+
+    Quis excepteur Lorem eu proident adipisicing consequat tempor officia consequat esse commodo excepteur. Ullamco consectetur dolore quis duis anim et non exercitation cillum ut velit. Ullamco cillum esse ad est irure sit cupidatat occaecat labore do reprehenderit elit cillum aute dolor id. Consequat in nulla excepteur occaecat amet ad reprehenderit consequat commodo pariatur ex sit dolore minim enim. Anim eiusmod sit cillum fugiat pariatur in officia in voluptate. Laboris ad dolore laborum sint eiusmod ad amet anim cillum consectetur aliqua fugiat ea. Magna elit consectetur ipsum reprehenderit nisi laborum eiusmod tempor. Nostrud proident nostrud culpa aliquip fugiat tempor quis dolor.
+
+
+\end{document}
+```
+
+
+Dar formato al texto como cursivas, negritas, volados, versalitas etc., con base en los comandos correspondientes, puedes consurtarlos en l siguiente [link](#){:target="\_blank"}
 
 
   [^1]: Usar el paquete de bloque de autor. Este método implica renovar comandos.
