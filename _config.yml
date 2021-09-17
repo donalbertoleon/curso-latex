@@ -4,15 +4,15 @@ title: Curso Latex
 description: "Curso para la introducción a la edición académica con Latex para las humanidades y las ciencias sociales"
 googlewebfonts: Fira+Code:wght@400;500;700
 twitter:
-  username: #yourusername
+  username: intratextual
   card: summary
   creator: #yourusername
 author:
-  twitter: #yourusername
-  name: #yourusername
+  twitter: intratextual
+  name: Alberto R. León
   avatar:
-  email: #youremail
-  url: #yoururl
+  email: hola@mrleon.space
+  url: https://mrleon.space
 permalink: pretty
 
 baseurl: "/curso-latex"

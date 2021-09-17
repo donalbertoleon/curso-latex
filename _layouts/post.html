@@ -4,7 +4,7 @@ layout: default
 
 <section class="post">
   <div class="flex-row-between">
-    <a href="{{site.url}}/">« back</a>
+    <a href="{{site.baseurl}}/">« regresar</a>
     <button id="theme-toggle" onclick="modeSwitcher()">
         <div></div>
     </button>
@@ -16,5 +16,3 @@ layout: default
     {% for tag in page.tags %}
     <a href="/tag/{{tag}}">{{tag}}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}</span>
 </section>
-
-
