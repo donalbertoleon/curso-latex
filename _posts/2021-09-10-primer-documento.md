@@ -9,7 +9,7 @@ tags: [LaTeX, Taller, Instituto Mora]
 # Formación de un documento en Latex
 
 * Abre tu editor de texto para $$\LaTeX$$, en este caso *TexStudio*
-* Crea un nuevo documento
+* Crea un nuevo documento:
 
 ![Imágen 1](https://i.imgur.com/F0L6JER.png)
 
