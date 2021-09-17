@@ -132,10 +132,12 @@ Para agregar secciones o capítulos se usan respectivamente los siguientes coman
 \end{document}
 ```
 
-El documento que así:
+El documento queda de la siguiente forma:
 
 ![](https://i.imgur.com/rmoK8Q8.png){:target="\_blank"}
 
+
+**Guardamos documento**.
 
 Dar formato al texto como cursivas, negritas, volados, versalitas etc., con base en los comandos correspondientes, puedes consurtarlos en el siguiente [link](#){:target="\_blank"}
 
