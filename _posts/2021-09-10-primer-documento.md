@@ -167,11 +167,11 @@ Para hacer una compilación debemos tener abierto Texstudio, podemos compilar de
   1. Apretar la tecla de nuestro teclado `F6`
   2. Presionar en el programa el botón "Compilar" en la barra de herramientas de TexStudio:
 
-    ![Compilar](https://i.imgur.com/FuS8rhG.png)
+  ![Compilar](https://i.imgur.com/FuS8rhG.png)
 
 Con base en las órdenes que escribimos será nuestro resultado. Si no hubo errores en nuestro documento TexStudio nos marcará que el proceso terminó con normalidad:
 
-    ![Terminado](https://i.imgur.com/CbzPRgJ.png)
+  ![Terminado](https://i.imgur.com/CbzPRgJ.png)
 
 
 Para previsualizar el documento compilado en PDF podemos presionar el botón `F7` en nuestro teclado o seleccionar en la barra de herramientas el botón "Visualizar":
