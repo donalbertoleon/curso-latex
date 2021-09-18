@@ -21,7 +21,7 @@ Empezamos por el primer código:
 \documentclass[11pt,letterpaper]{article}
 ```
 
-Puedes elegir el tipo de documento que requieras. Para consultar los tipos de documentos que puedes elegir ingresa al siguiente [link](#){:target="\_blank"}.
+Puedes elegir el tipo de documento que requieras. Para consultar los tipos de documentos que puedes elegir ingresa al siguiente [link](https://mrleon.space/curso-latex/2021/09/15/comandos#tipo-de-documento){:target="\_blank"}.
 
 Escribimos nuestro primer código de paquete, este nos ayudará a detectar acentos y caracteres especiales:
 
@@ -143,15 +143,13 @@ El documento queda de la siguiente forma:
 
 [Formato](https://mrleon.space/curso-latex/2021/09/15/comandos#formato){:target="\_blank"}
 
-[Tamaño de texto](){:target="\_blank"}
+[Tamaño de texto](https://mrleon.space/curso-latex/2021/09/15/comandos#tama%C3%B1o-de-texto){:target="\_blank"}
 
-[Alineación del texto](){:target="\_blank"}
+[Alineación del texto](https://mrleon.space/curso-latex/2021/09/15/comandos#alineaci%C3%B3n-del-texto){:target="\_blank"}
 
-[Imágenes](){:target="\_blank"}
+[Imágenes](https://mrleon.space/curso-latex/2021/09/15/comandos#im%C3%A1genes){:target="\_blank"}
 
-[Caracteres especiales](){:target="\_blank"}
-
-Dar formato al texto como cursivas, negritas, volados, versalitas etc., con base en los comandos correspondientes, puedes consurtarlos en el siguiente [link](#){:target="\_blank"}
+[Caracteres especiales](https://mrleon.space/curso-latex/2021/09/15/comandos#caracteres-especiales){:target="\_blank"}
 
 
   [^1]: Usar el paquete de bloque de autor. Este método implica renovar comandos.
