@@ -59,7 +59,7 @@ Ingresamos los metadatos de autoría (autora, afiliación, correo, agradecimient
 **Forma uno:**
 
 ```
-\author{nombre de la autora}\thanks{dedicatoria, afiliación, correo, etc.}
+\author{nombre de la autora\thanks{dedicatoria, afiliación, correo, etc.}}
 \title{nombre del trabajo}
 ```
 
@@ -139,7 +139,14 @@ El documento queda de la siguiente forma:
 
 **Guardamos documento**.
 
-# Otros aspectos para el documento
+Podemos agregar cuantas secciones y subsecciones queramos, de tal forma que se empiece a estructurar nuestro documento.
+
+La siguiente imagen muestra cómo el documento ya tiene más secciones y subsecciones. Estas se van a representar en la sección en el panel izquierdo de nuestro programa **TeXstudio**:
+
+![](https://i.imgur.com/nLjO8po.png){:target="\_blank"}
+
+
+## Otros aspectos para el documento
 
 [Formato](https://mrleon.space/curso-latex/2021/09/15/comandos#formato){:target="\_blank"}
 
@@ -150,6 +157,18 @@ El documento queda de la siguiente forma:
 [Imágenes](https://mrleon.space/curso-latex/2021/09/15/comandos#im%C3%A1genes){:target="\_blank"}
 
 [Caracteres especiales](https://mrleon.space/curso-latex/2021/09/15/comandos#caracteres-especiales){:target="\_blank"}
+
+# Compilación
+
+Una vez que hemos determinado qué paquetes vamos a usar, y hayamos dado formato al cuerpo del documento, vamos a realizar su "impresión", esto se llama **compilado**. Lo que hará nuestro programa es **interpretar** todas las órdenes que hemos escrito en el documento para que pueda traducirlo a un formato legible y estético.
+
+Para hacer una compilación hay dos opciones:
+
+  1. Apretar la tecla de nuestro teclado `f5`
+  2. Presionar en el programa el botón de compilar en la barra de herramietas de TexStudio:
+    ![](https://i.imgur.com/FuS8rhG.png)
+
+Con base en las órdenes será nuestro resultado.
 
 
   [^1]: Usar el paquete de bloque de autor. Este método implica renovar comandos.
