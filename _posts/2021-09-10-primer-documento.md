@@ -66,7 +66,7 @@ Ingresamos los metadatos de autoría (autora, afiliación, correo, agradecimient
 **Forma dos:** con el paquete `authblk`[^1]
 ```
 \usepackage{authblk}
-\author[a]{Nombre de la autora}\thanks{agradecimiento}
+\author[a]{Nombre de la autora\thanks{agradecimiento}}
 \affil[a]{afiliación}
 \title{nombre del trabajo}
 ```
@@ -134,10 +134,45 @@ Para agregar secciones o capítulos se usan respectivamente los siguientes coman
 
 El documento queda de la siguiente forma:
 
-![](https://i.imgur.com/rmoK8Q8.png){:target="\_blank"}
+![](https://i.imgur.com/6DRmapI.png){:target="\_blank"}
 
 
 **Guardamos documento**.
+
+## Formato
+
+Todos los formatos del texto, para efectos de curso, se realizarán con comandos dentro del cuerpo del texto, la siguiente tabla muestra los comandos más comunes de formato en latex:
+
+| Comando | Descripción | Resultado |
+|:--------|:------------|: ----------|
+|`\emph{Texto}`| Cursivas |  *Texto en cursivas* |
+|`\textbf{Texto}`| Negritas |  **Texto en negritas** |
+|`\textbf{\emph{Texto}}`| Cursivas + negritas| ***Texto en cursivas y negritas*** |
+|`\underline{Texto}`| Subrayado | <u>Texto</u> |
+|`\textsc{Texto}`| Versalitas | <span style="font-variant:small-caps;">Texto</span> |
+|`\textsuperscript{Texto}`|Texto en superíndice (voladito)| <sup>Texto</sup> |
+|`\textsubscript{Texto}`|Texto en subíndice | <sub>Texto</sub> |
+|`\uppercase{texto}`| Todo texto a mayúsculas | TEXTO |
+|`\lowercase{TEXTO}`| Todo texto a minúsculas | texto |
+
+
+## Tamaño de texto
+
+El tamaño de texto es variable en un documento, hay que recordar que nosotras vamos a escoger el tamaño desde las opciones del documento.
+
+| Comando | Descripción |
+|---------|-------------|
+|`\huge`| Texto más grande |
+|`\large`| Texto grande |
+|`\normalsize`| Texto al tamaño normal |
+|`\footnotesize`| Texto pequeño |
+|`\tiny`| Texto diminuto |
+
+
+### Consideraciones especiales
+
+Comillas: \` \"
+Puntos suspensivos: ... \dots \ldots
 
 Dar formato al texto como cursivas, negritas, volados, versalitas etc., con base en los comandos correspondientes, puedes consurtarlos en el siguiente [link](#){:target="\_blank"}
 
