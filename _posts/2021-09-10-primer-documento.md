@@ -162,13 +162,45 @@ La siguiente imagen muestra cómo el documento ya tiene más secciones y subsecc
 
 Una vez que hemos determinado qué paquetes vamos a usar, y hayamos dado formato al cuerpo del documento, vamos a realizar su "impresión", esto se llama **compilado**. Lo que hará nuestro programa es **interpretar** todas las órdenes que hemos escrito en el documento para que pueda traducirlo a un formato legible y estético.
 
-Para hacer una compilación hay dos opciones:
+Para hacer una compilación debemos tener abierto Texstudio, podemos compilar de dos maneras:
 
-  1. Apretar la tecla de nuestro teclado `f5`
-  2. Presionar en el programa el botón de compilar en la barra de herramietas de TexStudio:
-    ![](https://i.imgur.com/FuS8rhG.png)
+  1. Apretar la tecla de nuestro teclado `F6`
+  2. Presionar en el programa el botón "Compilar" en la barra de herramientas de TexStudio:
 
-Con base en las órdenes será nuestro resultado.
+    ![Compilar](https://i.imgur.com/FuS8rhG.png)
 
+Con base en las órdenes que escribimos será nuestro resultado. Si no hubo errores en nuestro documento TexStudio nos marcará que el proceso terminó con normalidad:
+
+    ![Terminado](https://i.imgur.com/CbzPRgJ.png)
+
+
+Para previsualizar el documento compilado en PDF podemos presionar el botón `F7` en nuestro teclado o seleccionar en la barra de herramientas el botón "Visualizar":
+
+  ![Visualizar](https://i.imgur.com/4Ogl921.png)
+
+Se desplegará en el área de trabajo de TexStudio, del lado derecho, una miniatura con el PDF ya compilado, ahí podremos ver rápidamente el archivo:
+
+  ![Previsualización](https://i.imgur.com/Fhpm8Jk.png)
+
+Si queremos ver el PDF en nuestro lector solo hay que presionar el botón con el símbolo de PDF que hay en la barra de herramientas que se abrió con la Previsualización:
+
+  ![Abrir documento](https://i.imgur.com/AHKof3s.png)
+
+
+Podemos agregar o quitar contenido, comandos y entornos cada vez que deseemos, para ver los cambios aplicados se debe compilar después de escribirlos. **La compilación se realiza cuantas veces sean necesarias**, hasta que demos el proceso por finalizado.
+
+Si asistimos a la carpeta donde está nuestro trabajo nos daremos cuenta que hay varios documentos, todos estos documentos son generados con la compilación. Los únicos documentos que no deben jamás eliminarse son el archivo con extensión `.tex` y las imágenes, en caso de que tenga nuestro documento imágenes:
+
+  ![Archivos](https://i.imgur.com/oT0qYNC.png)
+
+
+
+
+#### Posibles errores
+
+* Se usaron caracteres reservados de una manera errónea
+* No se cerraron los entornos o las llaves de los comandos adecuadamente
+* Se escribió mal un comando
+* Se escribieron mal las opciones de los comandos
 
   [^1]: Usar el paquete de bloque de autor. Este método implica renovar comandos.
