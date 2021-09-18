@@ -21,7 +21,7 @@ Empezamos por el primer código:
 \documentclass[11pt,letterpaper]{article}
 ```
 
-Puedes elegir el tipo de documento que requieras. Para consultar los tipos de documentos que puedes elegir ingresa al siguiente [link](#){:target="\_blank"}
+Puedes elegir el tipo de documento que requieras. Para consultar los tipos de documentos que puedes elegir ingresa al siguiente [link](#){:target="\_blank"}.
 
 Escribimos nuestro primer código de paquete, este nos ayudará a detectar acentos y caracteres especiales:
 
@@ -139,40 +139,17 @@ El documento queda de la siguiente forma:
 
 **Guardamos documento**.
 
-## Formato
+# Otros aspectos para el documento
 
-Todos los formatos del texto, para efectos de curso, se realizarán con comandos dentro del cuerpo del texto, la siguiente tabla muestra los comandos más comunes de formato en latex:
+[Formato](https://mrleon.space/curso-latex/2021/09/15/comandos#formato){:target="\_blank"}
 
-| Comando | Descripción | Resultado |
-|:--------|:------------|: ----------|
-|`\emph{Texto}`| Cursivas |  *Texto en cursivas* |
-|`\textbf{Texto}`| Negritas |  **Texto en negritas** |
-|`\textbf{\emph{Texto}}`| Cursivas + negritas| ***Texto en cursivas y negritas*** |
-|`\underline{Texto}`| Subrayado | <u>Texto</u> |
-|`\textsc{Texto}`| Versalitas | <span style="font-variant:small-caps;">Texto</span> |
-|`\textsuperscript{Texto}`|Texto en superíndice (voladito)| <sup>Texto</sup> |
-|`\textsubscript{Texto}`|Texto en subíndice | <sub>Texto</sub> |
-|`\uppercase{texto}`| Todo texto a mayúsculas | TEXTO |
-|`\lowercase{TEXTO}`| Todo texto a minúsculas | texto |
+[Tamaño de texto](){:target="\_blank"}
 
+[Alineación del texto](){:target="\_blank"}
 
-## Tamaño de texto
+[Imágenes](){:target="\_blank"}
 
-El tamaño de texto es variable en un documento, hay que recordar que nosotras vamos a escoger el tamaño desde las opciones del documento.
-
-| Comando | Descripción |
-|---------|-------------|
-|`\huge`| Texto más grande |
-|`\large`| Texto grande |
-|`\normalsize`| Texto al tamaño normal |
-|`\footnotesize`| Texto pequeño |
-|`\tiny`| Texto diminuto |
-
-
-### Consideraciones especiales
-
-Comillas: \` \"
-Puntos suspensivos: ... \dots \ldots
+[Caracteres especiales](){:target="\_blank"}
 
 Dar formato al texto como cursivas, negritas, volados, versalitas etc., con base en los comandos correspondientes, puedes consurtarlos en el siguiente [link](#){:target="\_blank"}
 
