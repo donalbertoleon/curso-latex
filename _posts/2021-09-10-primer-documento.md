@@ -193,9 +193,6 @@ Si asistimos a la carpeta donde está nuestro trabajo nos daremos cuenta que hay
 
   ![Archivos](https://i.imgur.com/oT0qYNC.png)
 
-
-
-
 #### Posibles errores
 
 * Se usaron caracteres reservados de una manera errónea
