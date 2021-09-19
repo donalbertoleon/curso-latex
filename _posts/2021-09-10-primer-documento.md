@@ -200,4 +200,5 @@ Si asistimos a la carpeta donde está nuestro trabajo nos daremos cuenta que hay
 * Se escribió mal un comando
 * Se escribieron mal las opciones de los comandos
 
+
   [^1]: Usar el paquete de bloque de autor. Este método implica renovar comandos.
