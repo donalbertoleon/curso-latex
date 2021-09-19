@@ -1,0 +1,75 @@
+\documentclass[12pt,letterpaper,oneside]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage[margin=3cm]{geometry} 
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\lhead[]{Artículo académico 1}
+\rhead[]{\author{López, Sánchez y Martínez}}
+\chead[]{}
+\cfoot[\thepage]{\thepage}
+\lfoot[]{}
+\rfoot[]{\emph{En evaluación}}
+\usepackage{authblk}
+\usepackage{graphicx}
+\usepackage[colorlinks=true]{hyperref}
+\usepackage{footnotebackref}
+\title{Artículo académico 1}
+\author[a]{Juan López\thanks{juan@hotmail.com}}
+\author[b]{Margarita Sánchez\thanks{margarita@hotmail.com}}
+\author[a,b]{Liliana Martínez\thanks{liliana@hotmail.com}}
+\affil[a]{Universidad Autónoma de México, Campus I: Iztapalapa, México.}
+\affil[b]{Colegio de la Frontera Norte, Tijuana, México.}
+\renewcommand\Authand{ y } %% Secparador de coautor
+\renewcommand\Authands{ y } %% Separador de autores
+\renewcommand*{\Affilfont}{\small\it} %% Da formato a las instituciones
+\usepackage{lipsum} %% Para generar texto ciego
+\usepackage{hanging}
+\begin{document}
+\maketitle
+\begin{abstract}
+	\lipsum[1]
+\end{abstract}
+
+\section{Introducción}
+
+\lipsum[1-4]
+
+\subsection{Subsección}
+
+\lipsum[1-3]
+
+\begin{figure}[ht!]
+	\label{img1}
+	\caption{Ñu meditando}
+\centering	\includegraphics[width=.8\textwidth]{linuximagen}
+\end{figure}
+
+\subsubsection{Subsubsección}
+
+\lipsum[4-5]
+
+\section{Desarrollo}
+
+\lipsum[1-2]\footnote{Esta es una nota a pie.}
+
+\section{Conclusiones}
+
+\lipsum[1-2]
+
+\section{Referencias}
+
+\begin{hangparas}{6.2mm}{1}
+	Abreu, A. A. de, Beloch, I., Lattman-Weltman, F. e Lamarão, S. (2001).	\emph{Dicionário histórico-biográfico brasileiro, pós-1930} (2. ed.~rev.e atualizada). Brasil: Fundação Getúlio Vargas/Centro de Pesquisa e	Documentação de História Contemporânea do Brasil.
+	
+	Abreu, M. de P. (Org.). (1990). \emph{A Ordem do progresso: Cem anos de	política econômica republicana, 1889-1989}. Rio de Janeiro: Editora Campus.
+	
+	Agência Nacional do Petróleo, Gás Natural e Biocombustíveis (2015).	\emph{Petróleo e Estado}. Brasil: Autor. 
+	
+	Alves, J. A. B. (2020). \emph{Impactos dos Royalties do Pré-Sal no Pré-Sal no Desenvolvimento dos Municípios Costeiros do Sudeste	Brasileiro} (Tese de Doutorado). Universidade do Vale do Itajaí, Brasil.
+	
+	Andrade, R. B. de. (2011). A regulação do pós-lavra no direito minerário brasileiro. \emph{Revista de Direito, Estado e Recursos Naturais},	\emph{1}(1), 79--106.
+	
+\end{hangparas}
+
+\end{document}

@@ -1,0 +1,196 @@
+\documentclass[12pt,c5paper,oneside]{book} %% Creo que el mora utiliza C5 de papel
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage[margin=3cm]{geometry}  
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\lhead[]{\leftmark}
+\rhead[]{Juan López}
+\chead[]{}
+\cfoot[\thepage]{\thepage}
+\lfoot[]{}
+\rfoot[]{}
+
+\renewcommand{\chaptermark}[1]{%
+	\markboth{#1}{}} %% Para quitar numeración en las cabeceras
+
+\usepackage{authblk}
+\usepackage{graphicx}
+\title{Libro académico 1: \LaTeX en las ciencias sociales y las humanidades}
+\author{Juan López}
+\date{} %%% Se deja en blanco para que no aparezca la fecha
+\usepackage{lipsum} % Para agregar contenido vacío
+\usepackage{pdfpages} % Para agregar la portada se necesita este paquete
+\usepackage[colorlinks=true]{hyperref} %%% Para los links, las opciones son para que no estorben
+\usepackage{footnotebackref} % Hace reversible la nota
+%%%%%%%%%%%%%%%%%%%%%%
+%%%%% Inicia Cuerpo%%%
+%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+\includepdf[pages=1]{cover} %%% Se agrega portada del libro en un archivo expterno PDF
+
+ {\let\cleardoublepage\relax \frontmatter} %%% Elimina la página extra que llegase a existir
+
+\maketitle
+
+\clearpage{\pagestyle{empty}\cleardoublepage}%% Elimina pies y cabezas en las hojas vacías después de los elementos.
+
+
+\begin{titlepage}
+	\centering
+	\vspace{1cm}
+	\textsc{\Large Editorial} \par
+	\vspace{3cm}
+	{\scshape\Huge Libro académico 1: \LaTeX { }en las ciencias sociales y las humanidades \par}
+	\vspace{3cm}
+	\vfill
+	{\Large \emph{Juan López} \par}
+	\vfill
+	{\Large Septiembre 2021 \par}
+\end{titlepage} 
+\clearpage{\pagestyle{empty}\cleardoublepage}
+
+\frontmatter
+\tableofcontents
+
+\chapter{Prólogo}
+
+\lipsum[1-7]
+
+\chapter{Notas preeliminares}
+
+\lipsum[1-7]
+
+\mainmatter
+
+\part{El comienzo}
+
+\chapter{Introducción}
+
+\lipsum[1-4]
+
+\section{Sección}
+
+\lipsum[1-3]
+
+\begin{quote}
+	\lipsum[1] (Mengano, 2000, p. 2)
+\end{quote}
+
+\subsection{Subsección}
+
+\lipsum[4-6]
+
+\clearpage{\pagestyle{empty}\cleardoublepage}
+
+\chapter{Desarrollo}
+
+
+\lipsum[1-4]
+
+\begin{figure}[ht!]
+	\label{img1}
+	\caption{Ñu meditando}
+	\centering	\includegraphics[width=.8\textwidth]{linuximagen}
+\end{figure}
+
+\section{Desarrollo 1}
+
+\lipsum[1-2]
+
+\begin{quotation}
+	\lipsum[1-2] (Fulano, 1999, p. 123)
+\end{quotation}
+
+\section{Desarrollo 2}
+
+\lipsum[2-4]
+
+\clearpage{\pagestyle{empty}\cleardoublepage}
+
+\part{El presente}
+
+\chapter{Otra introducción}
+
+\lipsum[1-4]
+
+\section{Otra sección}
+
+\lipsum[1-3]
+
+\subsection{Otra subsección}
+
+\lipsum[4-6]
+
+\clearpage{\pagestyle{empty}\cleardoublepage}
+
+\chapter{Otro desarrollo}
+
+\lipsum[1-4]
+
+\section{Otro desarrollo 1}
+
+\lipsum[1-2]
+
+\section{Otro desarrollo 2}
+
+\lipsum[2-4]
+
+\clearpage{\pagestyle{empty}\cleardoublepage}
+
+\part{El Futuro}
+
+\appendix
+
+\chapter{La importancia del apéndice}
+
+\lipsum[1-10]
+
+\section{El apéndice como complemento}
+
+\lipsum[2-3]
+
+\clearpage{\pagestyle{empty}\cleardoublepage}
+
+\chapter{La búsqueda del apéndice perfecto}
+
+\lipsum[1-6]
+
+\backmatter
+
+\chapter{Epílogo}
+
+\lipsum[1-6]
+
+\chapter{Bibliografía}
+
+Apellido, N. (año). \emph{Título del libro}. País: Editorial.
+
+Apellido, N. (año). \emph{Título del libro}. País: Editorial.
+
+Apellido, N. (año). \emph{Título del libro}. País: Editorial.
+
+Apellido, N. (año). \emph{Título del libro}. País: Editorial.
+
+\clearpage{\pagestyle{empty}\cleardoublepage}
+
+\chapter{Otras fuentes}
+\section{Archivos}
+
+Apellido, N. Nombre del documento. Año. Clasificación. Archivo, País.
+
+Apellido, N. Nombre del documento. Año. Clasificación. Archivo, País.
+
+Apellido, N. Nombre del documento. Año. Clasificación. Archivo, País.
+
+\section{Material visual}
+
+Autor, N. (año). \emph{Obra} [Formato]. País.
+
+Autor, N. (año). \emph{Obra} [Formato]. País.
+
+Autor, N. (año). \emph{Obra} [Formato]. País.
+
+Autor, N. (año). \emph{Obra} [Formato]. País.
+
+\end{document}
