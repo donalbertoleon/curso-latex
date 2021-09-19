@@ -1,0 +1,163 @@
+\documentclass[12pt,letterpaper,oneside]{report}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+%\usepackage{geometry}  
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\lhead[]{\leftmark}
+\rhead[]{Juana López}
+\chead[]{}
+\cfoot[\thepage]{\thepage}
+\lfoot[]{}
+\rfoot[]{}
+%\renewcommand{\chaptermark}[1]{%
+%	\markboth{#1}{}} %% Para quitar numeración en las cabeceras
+\usepackage{graphicx}
+\title{El uso de \LaTeX en las ciencias sociales y las humanidades}
+\author{Juana López}
+\date{} %%% Se deja en blanco para que no aparezca la fecha
+\usepackage{lipsum} % Para agregar contenido vacío
+\usepackage[colorlinks=true]{hyperref} %%% Para los links, las opciones son para que no estorben
+\usepackage{footnotebackref} % Hace reversible la nota
+\usepackage{epigraph} %%% Epígrafe
+\setlength\epigraphrule{0pt} %%% Borrar línea de epígrafe
+%%%%%%%%%%%
+\begin{document}
+
+
+	\begin{titlepage}
+		\centering
+		{\includegraphics[width=0.2\textwidth]{escudo}\par}
+		\vspace{1cm}
+		{\bfseries\LARGE Instituto de Investigaciones\\Dr. José María Luis Mora \par}
+		\vspace{1cm}
+		{\scshape\LARGE El uso de \LaTeX {} en las ciencias sociales y las humanidades. \par}
+		\vspace{2cm}
+		\makebox[8cm][s]{\Huge T E S I S}\\[8pt]
+	QUE PARA OBTENER EL TÍTULO DE:\\[5pt]
+	{\bfseries\Large Licenciada en Historia \par}
+	\vspace{2cm}
+		{\Large Presenta: \par}
+		{\Large \textbf{Juana López} \par}
+		\vfill
+		{Asesora: \par}
+		{ Miranda Juárez \par}
+		\vfill
+		
+		{Septiembre 2021 \par}
+		\end{titlepage}
+
+\thispagestyle{empty}
+\vspace*{\fill}
+\epigraph{\dots si yo fuera Maradona, frente a cualquier portería, si yo fuera Maradona nunca me equivocaría\dots\\ La vida es una tómbola de noche y de día\dots}{\textemdash Manu Chao, \textit{La vida tómbola}}
+
+
+\thispagestyle{empty}
+
+
+\chapter*{Agradecimientos}
+Gracias a mi paciencia y a mi interés, porque estuve muchas veces a punto de estudiar matemáticas para aprender \LaTeX.
+
+
+\tableofcontents
+
+\chapter{Introducción}
+
+\lipsum[1-4]
+
+\section{Sección}
+
+\lipsum[1-3]
+
+\begin{quote}
+	\lipsum[1] (Mengano, 2000, p. 2)
+\end{quote}
+
+\subsection{Subsección}
+
+\lipsum[4-6]
+
+
+\chapter{Desarrollo}
+
+
+\lipsum[1-4]
+
+\begin{figure}[ht!]
+	\label{img1}
+	\caption{Ñu meditando}
+	\centering	\includegraphics[width=.8\textwidth]{linuximagen}
+\end{figure}
+
+\section{Desarrollo 1}
+
+\lipsum[1-2]
+
+\begin{quote}
+	\lipsum[1] (Fulano, 1985, p. 365)
+\end{quote}
+
+\section{Desarrollo 2}
+
+\lipsum[2-4]
+
+
+\chapter{Otra introducción}
+
+\lipsum[1-4]
+
+\section{Otra sección}
+
+\lipsum[1-3]
+
+\subsection{Otra subsección}
+
+\lipsum[4-6]
+
+
+\chapter{conclusión}
+
+\lipsum[1-4]
+
+\chapter*{Bibliografía}
+
+Apellido, N. (año). \emph{Título del libro}. País: Editorial.
+
+Apellido, N. (año). \emph{Título del libro}. País: Editorial.
+
+Apellido, N. (año). \emph{Título del libro}. País: Editorial.
+
+Apellido, N. (año). \emph{Título del libro}. País: Editorial.
+
+\clearpage{\pagestyle{empty}\cleardoublepage}
+
+\section*{Otras fuentes}
+
+\subsection*{Archivos}
+
+Apellido, N. Nombre del documento. Año. Clasificación. Archivo, País.
+
+Apellido, N. Nombre del documento. Año. Clasificación. Archivo, País.
+
+Apellido, N. Nombre del documento. Año. Clasificación. Archivo, País.
+
+\section*{Material visual}
+
+Autor, N. (año). \emph{Obra} [Formato]. País.
+
+Autor, N. (año). \emph{Obra} [Formato]. País.
+
+Autor, N. (año). \emph{Obra} [Formato]. País.
+
+Autor, N. (año). \emph{Obra} [Formato]. País.
+
+
+
+\appendix
+
+\chapter{La importancia del apéndice}
+
+\lipsum[1-10]
+
+
+\end{document}

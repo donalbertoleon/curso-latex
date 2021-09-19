@@ -10,7 +10,7 @@ Con lo que hemos aprendido hasta ahora podemos entender cómo se configura un do
 Las plantillas que propongo para clase son una guía para que puedas tomarlas y modificarlas a tu gusto.
 
 * Plantilla para artículo académico
-* Plantilla para libro
+* [Plantilla para libro](https://github.com/donalbertoleon/curso-latex/tree/gh-pages/Plantillas/ejemplolibro){:target="\_blank"}
 * Plantilla para conferencia
 * Plantilla para tesis
 * Plantilla para trabajo semestral
